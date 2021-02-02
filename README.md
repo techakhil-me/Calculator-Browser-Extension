@@ -6,4 +6,6 @@ Add to Mozilla : https://addons.mozilla.org/en-US/firefox/addon/just-a-calculato
 
 
 coming soon to chrome and other browser.
+
+
 <img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" width="480" height="640" align="left"/>
