@@ -5,7 +5,6 @@ The simplest calculator extension can do only addition, subtraction, multiplicat
 Add to Mozilla : https://addons.mozilla.org/en-US/firefox/addon/just-a-calculator/
 
 
-coming soon to chrome and other browser.
 
 
-<img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" height="300em" align="left"/>
+<img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" height="300em" align="left"/>coming soon to chrome and other browser.
