@@ -3,4 +3,6 @@ The simplest calculator extension can do only addition, subtraction, multiplicat
 
 
 Add to Mozilla : https://addons.mozilla.org/en-US/firefox/addon/just-a-calculator/
+
+
 coming soon to chrome and other browser.
