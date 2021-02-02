@@ -1,0 +1,25 @@
+{
+    "name": "just a calculator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Just a simple calculator.",
+    "content_scripts": [{
+        "matches": ["*://*.mozilla.org/*"],
+        "js": ["popup/math.js"],
+        "css": ["popup/style.css"]
+    }],
+    "icons": {
+        "48": "logo.png"
+    },
+    "permissions": ["activeTab"],
+    "browser_action": {
+        "default_popup": "popup/calc_ext.html",
+        "default_title": "calculator",
+        "default_icon": "logo.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{db593a9f-87c9-4d52-b3f8-9107322d31de}"
+        }
+    }
+}
