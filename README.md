@@ -3,6 +3,6 @@ The simplest calculator extension can do only addition, subtraction, multiplicat
 
 
 Add to Mozilla : https://addons.mozilla.org/en-US/firefox/addon/just-a-calculator/
-<img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" width="480" height="640" />
+<img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" width="480" height="640" align="left"/>
 
 coming soon to chrome and other browser.
