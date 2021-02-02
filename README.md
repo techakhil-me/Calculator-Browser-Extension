@@ -7,4 +7,4 @@ Add to Mozilla : https://addons.mozilla.org/en-US/firefox/addon/just-a-calculato
 
 
 
-<img align="right" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif" height="300em" align="left"/>coming soon to chrome and other browser.
+<img align="left" width="100" height="100" alt="GIF" src="https://github.com/techakhilc47/Calculator-Browser-Extension/blob/master/calc.gif">coming soon to chrome and other browser.
