@@ -18,7 +18,7 @@ for (const button of buttons) {
       } else if (this.id == "clear"){
         display.value = "";
       } else {
-        display.value = math.evaluate(display.value.replace('x','*'));
+        calculate()
       }
     }
   });
@@ -27,7 +27,7 @@ for (const button of buttons) {
 display.addEventListener("input", check);
 
 function check(){ 
-  display.value = display.value.replace(/[^0-9+/*\-x%]+/, '')
+  display.value = display.value.replace(/[^0-9+/*\-x.%]+/, '')
    if (
          ( "+/*%x-".indexOf(display.value.charAt(display.value.length - 1)) !== -1)
         && ("+/*%x-".indexOf(display.value.charAt(display.value.length - 2)) !== -1) && (display.value.length > 1))  {
@@ -39,6 +39,14 @@ function check(){
 display.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
    event.preventDefault();
-   display.value = math.evaluate(display.value.replace('x','*'))
+   calculate()
+   
   }
 });
+
+function calculate(){
+  display.value = math.evaluate(display.value.replaceAll('x','*'))
+  if (display.value == "undefined"){
+    display.value = "";
+  }
+}
